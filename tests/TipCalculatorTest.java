@@ -12,7 +12,7 @@ public class TipCalculatorTest {
     }
 
     @org.junit.Test
-    @Test
+    @Test //make your own
     public void testTips2() {
         TipCalculator inst2 = new TipCalculator();
         double output = inst2.calculateTip(15.36, 10);
